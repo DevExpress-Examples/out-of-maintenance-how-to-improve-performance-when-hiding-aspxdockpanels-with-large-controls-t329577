@@ -1,8 +1,3 @@
-<!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/128541459/15.1.9%2B)
-[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T329577)
-[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
-<!-- default badges end -->
 <!-- default file list -->
 *Files to look at*:
 
@@ -16,9 +11,6 @@
 * [WebUserControl3.ascx.cs](./CS/WebUserControl3.ascx.cs) (VB: [WebUserControl3.ascx.vb](./VB/WebUserControl3.ascx.vb))
 <!-- default file list end -->
 # How to improve performance when hiding ASPxDockPanels with large controls
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/t329577/)**
-<!-- run online end -->
 
 
 <p>Even when <a href="https://documentation.devexpress.com/#AspNet/clsDevExpressWebASPxDockPaneltopic">ASPxDockPanel</a> is hidden, its content will be rendered on a page. The page will contain additional markup with invisible content. To improve performance in this scenario, it is necessary to recreate only the required ASPxDockPanel's content controls on callbacks.</p>
